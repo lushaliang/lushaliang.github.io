@@ -5,8 +5,6 @@ output:
     toc_float: true
 ---
 
-I love rock climbing, traveling (pre-pandemic), and plants/trees.
-
 ## Rock climbing
 
 <img src="images/climbing.jpg" style="width:75%">
@@ -24,7 +22,7 @@ Hạ Long Bay, Vietnam
 Lares Trek, Peru
 This trek takes you through some of the most BEAUTIFUL places in the world. My pictures do not do it justice.
 
-## Plants
+## Plants/Trees
 
 <img src="images/camperdown.jpg" style="width:75%">
 

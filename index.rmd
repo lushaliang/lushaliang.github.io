@@ -5,7 +5,7 @@
 
 <img src="images/profile.jpg" style="width:25%; border:10px solid; margin-right: 20px" align="left">
 
-I am a cardiology fellow at New York Presbyterian-Columbia, currently in my research year. I am very interested in genetic cardiomyopathies and am currently working on my masters, with a focus on genetics and biostatistics. 
+I am a cardiology fellow at New York Presbyterian-Columbia, currently in my research year. I am interested in genetic cardiomyopathies and am working on my masters in patient oriented research, with a focus on genetics and biostatistics. 
 
 I grew up in Southern California, by way of Nova Scotia, but have been in the East Coast for the majority of my medical training. 
 

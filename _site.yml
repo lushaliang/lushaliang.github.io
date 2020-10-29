@@ -4,7 +4,7 @@ navbar:
   title: "Lusha Liang"
   left:
     - text: "Education"
-      href: about.html
+      href: education.html
     - text: "Research"
       href: research.html
     - text: "Hobbies"
