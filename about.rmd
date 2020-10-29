@@ -38,8 +38,8 @@ Hospital of the University of Pennsylvania
 
 # Cardiology Fellowship
 
-<img src="images/columbia.jpeg" style="width:75%">
-
 New York Presbyterian-Columbia
+
+<img src="images/columbia.jpeg" style="width:75%">
 
 * 2019-current 
