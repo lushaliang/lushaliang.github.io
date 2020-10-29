@@ -1,0 +1,40 @@
+---
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+## Journal Articles
+
+* Damrauer, SM;* Chaudhary, K;* Cho, JH;* __Liang, LW__\*; Argulian, E; Chan, L; Dobbyn, A; Guerraty, MA; Judy, R; Kay, K; Kember, RL; Levin, MG; Saha, A; Vleck, TV; Verma, SS; Weaver, J; Abul-Husn, NS; Baras, A; Chirinos, JA; Drachman, B; Kenny, EE; Loos, RJF; Narula, J; Overton, J; Reid, J; Ritchie, M; Sirugo, G; Nadkarni, G; Rader, D; Do, R. “Association of the V122I hereditary transthyretin amyloidosis genetic variant with heart failure among individuals of African or Hispanic/Latino ancestry.” JAMA 2019 December;322(22):2191-2202. \*__Equal contributors__.
+
+* Haggerty, CM; Damrauer, SM; Levin, MG, Birtwell, D; Carey, DJ; Golden, AM; Hartzel, DN; Hu, Y; Judy, R; Kelly, MA; Kember, RL; Kirchner, HL; Leader, JB; __Liang, LW__; McDermott, C; Babu, A; Morley, M; Nealy, Z; Person, TN; Pulenthiran, A; Small, A; Smelser, DT; Stahl, RC; Sturm, AC; Williams, H; Baras, A; Marguiles, KB; Cappola, TP; Dewey, FE; Verma, A; Zhang X; Correa, A; Hall, ME; Wilson, JG; Ritchie, MD; Rader, DJ; Murray, MF; Fornwalt, BK; Arany, Z. “Genome-first evaluation of heart disease associated with Titin-truncating variants.” Circulation 2019 June; 140(1): 42-54.
+
+* __Liang, LW__\*; Fuery, MA*;  Kaplan, FS; Mohler, ER. “Vascular ossification: pathology, mechanisms, and clinical implications.” Bone 2018 April; 109:28-34. \*__Equal contributors__
+
+* __Liang, LW__\*; Perez, A*; Cangemi, N; Young, R; Makker, V. “Nonbacterial thrombotic endocarditis with embolic cerebral vascular accidents in a patient with advanced, recurrent clear cell carcinoma of the ovary: a case report.” Gynecologic Oncology Reports 2016 Apr; 16:25-27. \*__Equal contributors__
+
+* __Liang, LW__\*; Perez, A*; Cangemi, N; Zhou, Q; Iasonos A; Abu-Rustum, N; Alektiar, K; Makker, V. “An assessment of prognostic factors, adjuvant treatment, and outcomes of stage IA polyp-limited versus endometrium-limited type II endometrial carcinoma.” International Journal of Gynecologic Cancer 2016 Mar; 26(3):497-504. \*__Equal contributors__.
+
+* __Liang, LW__; Block, DH; Hussein, R; Lim HN. "Minimal effect of gene clustering on expression in Escherichia Coli." Genetics 2013 Feb 5; 193(2): 453-65.  
+
+* __Liang, LW__\*; Block, DH*; Hussein, R*; Lim HN. "Regulatory consequences of gene translocation in bacteria." Nucleic Acids Research 2012 Oct; 40(18):8979-92. \*__Equal contributors__
+
+## Online Articles
+
+* Liang, LW; Mohler, ER. “Singleton Merten Syndrome.” https://rarediseases.org/rare-diseases/singleton-merten-syndrome/.
+
+## Abstracts
+
+* Liang, LW; Perez, A; Makker, V. "Outcomes of stage IA polyp-limited versus endometrium-limited epithelial high grade endometrial carcinoma." ASCO Abstract 2015 May. 
+* McGeehan, M; DeMaria, R; Liang, LW; Pinke, C; Nash, E; Ramasamy, S; Krsulich, K; Noble, L; Huang, H; Charney, P; Batavia, A. “Insurance enrollment at a student-run free clinic after the patient protection and affordable care act.” SGIM Abstract 2016 May.
+
+## Presentations
+
+* Liang, LW; Birati, E; Han, Y. (2019, April 2). “Right ventricular strain as a predictor of early right ventricular failure.” Oral presentation at ISHLT 2019. 
+* Liang, LW. (2013, September). “Evaluating the impact of natural killer cell immunogenetics on outcomes of HCT in minority patients with AML.” Poster presented at: Memorial Sloan Kettering Cancer Center Summer Fellow Research Symposium.
+
+## Patents
+
+* Liang, LW; Liang, P. Interchangeable wireless sensing apparatus for mobile or networked devices. Patent WO2014066869A1. 2014 May 1.

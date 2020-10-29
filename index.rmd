@@ -1,0 +1,12 @@
+---
+---
+
+<link rel="stylesheet" href="styles.css" type="text/css">
+
+<img src="images/profile.jpg" style="width:25%; border:10px solid; margin-right: 20px" align="left">
+
+I am a cardiology fellow at New York Presbyterian-Columbia, currently in my research year. I am very interested in genetic cardiomyopathies and am currently working on my masters, with a focus on genetics and biostatistics. 
+
+I grew up in Southern California, by way of Nova Scotia, but have been in the East Coast for the majority of my medical training. 
+
+I am a budding R enthusiast and am building skills in machine learning and working with big data.

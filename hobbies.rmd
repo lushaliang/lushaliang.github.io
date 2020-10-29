@@ -1,0 +1,33 @@
+---
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+I love rock climbing, traveling (pre-pandemic), and plants/trees.
+
+## Rock climbing
+
+<img src="images/climbing.jpg" style="width:75%">
+
+Parcent, Spain
+
+## Traveling
+
+<img src="images/halong.jpg" style="width:75%">
+
+Hạ Long Bay, Vietnam
+
+<img src="images/lares.jpg" style="width:75%">
+
+Lares Trek, Peru
+This trek takes you through some of the most BEAUTIFUL places in the world. My pictures do not do it justice.
+
+## Plants
+
+<img src="images/camperdown.jpg" style="width:75%">
+
+This funny looking tree is my current favorite tree, called the Camperdown Elm or Ulmus glabra. You can find several of them in Central Park. 
+
+I became interested in tree species identification after taking this wonderful class offered in the Spring and Summer through the [Brooklyn Brainery](https://brooklynbrainery.com/courses/tree-identification-for-beginners).
