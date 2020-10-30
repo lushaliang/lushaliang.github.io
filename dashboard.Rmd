@@ -53,22 +53,9 @@ noaa_df =
 Column {data-width=650}
 -----------------------------------------------------------------------
 
-### Chart A
+### Boxplot of Snowfall by Month
 
 ```{r}
-
-```
-
-Column {data-width=350}
------------------------------------------------------------------------
-
-### Chart B
-
-```{r}
-x = list(title = "Month")
-
-y = list(title = "Snowfall (mm)")
-
 noaa_df %>% 
   filter(snow != 0) %>%
   mutate(text_label = str_c("Snow Depth: ", snwd, "mm")) %>%
@@ -76,12 +63,46 @@ noaa_df %>%
   plot_ly(
   x = ~month_name, y = ~snow, color = ~month_name, 
   colors = "viridis", type = "box", text = ~text_label) %>%
-  layout(xaxis = x, yaxis = y, title = "Snowfall by Month")
+  layout(xaxis = list(title = "Month"), yaxis = list(title = "Snowfall (mm)"), 
+  title = "Snowfall by Month in 2010")
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Snowfall Scatterplot
+
+```{r}
+noaa_df %>% 
+  filter(snow != 0) %>%
+  mutate(
+  snow = log10(snow),
+  snowfall = log10(snwd),
+  month_name = fct_reorder(month_name, month)
+  ) %>%
+  plot_ly(
+  x = ~snow, y = ~snwd, color = ~month_name, 
+  colors = "viridis", type = "scatter", alpha = .5,
+  mode = "markers", text = ~month_name) %>%
+  layout(xaxis = list(title = "Log of Snowfall (mm))"), yaxis = list(title = "Log of Snow depth (mm)"), 
+  title = "Snowfall and Snow depth in 2010")
 ```
 
 ### Chart C
 
 ```{r}
-
+noaa_df %>%
+  unite("date", day:month, sep = "-") %>% 
+  mutate(date = as.Date(date, format = "%d-%Y-%m")) %>%
+  filter(id == "USC00300023") %>%
+  mutate(text_label = str_c("Precipitation: ", prcp, " tenths of mm")) %>%
+  plot_ly(x = ~date) %>%
+  add_trace(y = ~tmax, name = "tmax",
+  type = "scatter", mode = "lines",
+  text = ~text_label) %>%
+  add_trace(y = ~tmin, name = "tmin", mode = 'lines',
+  text = ~text_label) %>%
+  layout(xaxis = list(title = "Date"), yaxis = list(title = "Maximum and Minimum Temperature (C)"), 
+  title = "Maximum and Minimum Temperatures in 2010 at Station USC00300023")
 ```
 
