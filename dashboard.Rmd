@@ -19,6 +19,8 @@ theme_set(theme_minimal())
 ```{r}
 data("ny_noaa")
 
+# Separate date and join with month dataframe
+
 noaa_df = 
   ny_noaa %>% 
   separate(date, into = c("year", "month", "day"), sep = "-") %>%
@@ -40,6 +42,7 @@ month_df =
 noaa_df = 
   left_join(noaa_df, month_df, by = "month")
 
+# Filter only for year 2010 so that graphs are more informative
 noaa_df =
   noaa_df %>% 
   drop_na() %>%
@@ -53,7 +56,7 @@ noaa_df =
 Column {data-width=650}
 -----------------------------------------------------------------------
 
-### Boxplot of Snowfall by Month
+### Snowfall by Month in 2010
 
 ```{r}
 noaa_df %>% 
@@ -63,14 +66,13 @@ noaa_df %>%
   plot_ly(
   x = ~month_name, y = ~snow, color = ~month_name, 
   colors = "viridis", type = "box", text = ~text_label) %>%
-  layout(xaxis = list(title = "Month"), yaxis = list(title = "Snowfall (mm)"), 
-  title = "Snowfall by Month in 2010")
+  layout(xaxis = list(title = "Month"), yaxis = list(title = "Snowfall (mm)"))
 ```
 
 Column {data-width=350}
 -----------------------------------------------------------------------
 
-### Snowfall Scatterplot
+### Snowfall and Snow depth in 2010
 
 ```{r}
 noaa_df %>% 
@@ -84,25 +86,24 @@ noaa_df %>%
   x = ~snow, y = ~snwd, color = ~month_name, 
   colors = "viridis", type = "scatter", alpha = .5,
   mode = "markers", text = ~month_name) %>%
-  layout(xaxis = list(title = "Log of Snowfall (mm))"), yaxis = list(title = "Log of Snow depth (mm)"), 
-  title = "Snowfall and Snow depth in 2010")
+  layout(xaxis = list(title = "Log of Snowfall (mm))"), yaxis = list(title = "Log of Snow depth (mm)"))
 ```
 
-### Chart C
+### Maximum and Minimum Temperatures in 2010 at Station USC00300023
 
 ```{r}
+# Line graph for one station showing minimum and maximum temperatures
 noaa_df %>%
   unite("date", day:month, sep = "-") %>% 
   mutate(date = as.Date(date, format = "%d-%Y-%m")) %>%
   filter(id == "USC00300023") %>%
   mutate(text_label = str_c("Precipitation: ", prcp, " tenths of mm")) %>%
   plot_ly(x = ~date) %>%
-  add_trace(y = ~tmax, name = "tmax",
+  add_trace(y = ~tmin, name = "tmin",
   type = "scatter", mode = "lines",
   text = ~text_label) %>%
-  add_trace(y = ~tmin, name = "tmin", mode = 'lines',
+  add_trace(y = ~tmax, name = "tmax", mode = 'lines',
   text = ~text_label) %>%
-  layout(xaxis = list(title = "Date"), yaxis = list(title = "Maximum and Minimum Temperature (C)"), 
-  title = "Maximum and Minimum Temperatures in 2010 at Station USC00300023")
+  layout(xaxis = list(title = "Date"), yaxis = list(title = "Maximum and Minimum Temperature (C)"))
 ```
 
