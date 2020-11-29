@@ -14,8 +14,7 @@ navbar:
       href: mailto:<ll3344@cumc.columbia.edu>
     - icon: fa-github fa-lg
       href: http://github.com/lushaliang/
-    - text: Dashboard
-      href: dashboard.html
+
 output:
   html_document:
     theme: paper
